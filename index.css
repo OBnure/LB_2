@@ -1,0 +1,38 @@
+
+.objectContainers{
+    display: flex;
+    flex-direction: column;
+    border: 10px solid #234df4;
+    padding: 10px;
+    gap: 10px;
+    
+}
+
+.row{
+   
+    flex: 1 0 auto;
+    border: 10px solid #57f4d1;
+    display: flex;
+    padding: 10px;
+    align-items:flex-start;
+    gap: 10px;
+}
+
+.col{
+    flex: 1 1 30%;
+    padding: 0 0 100px 0;
+    position: relative;
+    border: 10px solid #57f464;
+}
+.col1{
+    flex: 1 1 30%;
+    height: 100px;
+    border: 10px solid #57f464;
+}
+
+.col>img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+}
